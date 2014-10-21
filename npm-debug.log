@@ -1,0 +1,95 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '--save', 'mime-db' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 warn package.json apartment_lab_with_sequelize@1.0.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'mime-db', null ]
+7 verbose cache add name=undefined spec="mime-db" args=["mime-db",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'mime-db',
+8 verbose parsed url   path: 'mime-db',
+8 verbose parsed url   href: 'mime-db' }
+9 silly lockFile 8bc13185-mime-db mime-db
+10 verbose lock mime-db /Users/jangelroa/.npm/8bc13185-mime-db.lock
+11 silly lockFile 8bc13185-mime-db mime-db
+12 silly lockFile 8bc13185-mime-db mime-db
+13 verbose addNamed [ 'mime-db', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile 0264da20-mime-db mime-db@
+16 verbose lock mime-db@ /Users/jangelroa/.npm/0264da20-mime-db.lock
+17 silly addNameRange { name: 'mime-db', range: '*', hasData: false }
+18 verbose request where is /mime-db
+19 verbose request registry https://registry.npmjs.org/
+20 verbose request id 41c13512e843a517
+21 verbose url raw /mime-db
+22 verbose url resolving [ 'https://registry.npmjs.org/', './mime-db' ]
+23 verbose url resolved https://registry.npmjs.org/mime-db
+24 verbose request where is https://registry.npmjs.org/mime-db
+25 info trying registry request attempt 1 at 15:44:07
+26 verbose etag "DXZZDNBXAMU4U36GFPLKCTWN0"
+27 http GET https://registry.npmjs.org/mime-db
+28 http 304 https://registry.npmjs.org/mime-db
+29 silly registry.get cb [ 304,
+29 silly registry.get   { date: 'Mon, 20 Oct 2014 22:44:08 GMT',
+29 silly registry.get     server: 'Apache',
+29 silly registry.get     via: '1.1 varnish',
+29 silly registry.get     'last-modified': 'Mon, 20 Oct 2014 22:44:08 GMT',
+29 silly registry.get     'cache-control': 'max-age=60',
+29 silly registry.get     etag: '"DXZZDNBXAMU4U36GFPLKCTWN0"',
+29 silly registry.get     age: '9',
+29 silly registry.get     'x-served-by': 'cache-sjc3120-SJC',
+29 silly registry.get     'x-cache': 'HIT',
+29 silly registry.get     'x-cache-hits': '1',
+29 silly registry.get     'x-timer': 'S1413845048.616905,VS0,VE0',
+29 silly registry.get     vary: 'Accept',
+29 silly registry.get     'content-length': '0',
+29 silly registry.get     'keep-alive': 'timeout=10, max=50',
+29 silly registry.get     connection: 'Keep-Alive' } ]
+30 verbose etag https://registry.npmjs.org/mime-db from cache
+31 silly addNameRange number 2 { name: 'mime-db', range: '*', hasData: true }
+32 silly addNameRange versions [ 'mime-db',
+32 silly addNameRange   [ '0.0.0', '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.1.0', '1.1.1' ] ]
+33 verbose addNamed [ 'mime-db', '1.1.1' ]
+34 verbose addNamed [ '1.1.1', '1.1.1' ]
+35 silly lockFile d672f3d2-mime-db-1-1-1 mime-db@1.1.1
+36 verbose lock mime-db@1.1.1 /Users/jangelroa/.npm/d672f3d2-mime-db-1-1-1.lock
+37 silly lockFile d909375f-js-org-mime-db-mime-db-1-1-1-tgz https://registry.npmjs.org/mime-db/-/mime-db-1.1.1.tgz
+38 verbose lock https://registry.npmjs.org/mime-db/-/mime-db-1.1.1.tgz /Users/jangelroa/.npm/d909375f-js-org-mime-db-mime-db-1-1-1-tgz.lock
+39 verbose addRemoteTarball [ 'https://registry.npmjs.org/mime-db/-/mime-db-1.1.1.tgz',
+39 verbose addRemoteTarball   '0fc890cda05d0edadefde73d241ef7e28d110a98' ]
+40 info retry fetch attempt 1 at 15:44:07
+41 verbose fetch to= /var/folders/cw/sz3lx2k555g0gzwzj2tx9jc80000gn/T/npm-2998-Wa1aBHNR/registry.npmjs.org/mime-db/-/mime-db-1.1.1.tgz
+42 http GET https://registry.npmjs.org/mime-db/-/mime-db-1.1.1.tgz
+43 http 200 https://registry.npmjs.org/mime-db/-/mime-db-1.1.1.tgz
+44 silly lockFile d909375f-js-org-mime-db-mime-db-1-1-1-tgz https://registry.npmjs.org/mime-db/-/mime-db-1.1.1.tgz
+45 silly lockFile d909375f-js-org-mime-db-mime-db-1-1-1-tgz https://registry.npmjs.org/mime-db/-/mime-db-1.1.1.tgz
+46 silly lockFile d672f3d2-mime-db-1-1-1 mime-db@1.1.1
+47 silly lockFile d672f3d2-mime-db-1-1-1 mime-db@1.1.1
+48 silly lockFile 0264da20-mime-db mime-db@
+49 silly lockFile 0264da20-mime-db mime-db@
+50 error Error: EACCES, mkdir '/Users/jangelroa/.npm/mime-db/1.1.1'
+50 error  { [Error: EACCES, mkdir '/Users/jangelroa/.npm/mime-db/1.1.1']
+50 error   errno: 3,
+50 error   code: 'EACCES',
+50 error   path: '/Users/jangelroa/.npm/mime-db/1.1.1',
+50 error   parent: 'apartment_lab_with_sequelize' }
+51 error Please try running this command again as root/Administrator.
+52 error System Darwin 13.4.0
+53 error command "node" "/usr/local/bin/npm" "install" "--save" "mime-db"
+54 error cwd /Users/jangelroa/PROGRAMMING/GENERAL ASSEMBLY/101815_apartment_lab_with_sequelize
+55 error node -v v0.10.32
+56 error npm -v 1.4.28
+57 error path /Users/jangelroa/.npm/mime-db/1.1.1
+58 error code EACCES
+59 error errno 3
+60 error stack Error: EACCES, mkdir '/Users/jangelroa/.npm/mime-db/1.1.1'
+61 verbose exit [ 3, true ]

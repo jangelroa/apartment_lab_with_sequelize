@@ -1,0 +1,25 @@
+Link - https://github.com/jangelroa/apartment_lab_with_sequelize
+
+the project has been initialized for us (we dont need -> npm init), but we 
+need to install everything with -> npm install.
+
+> npm install
+> sequelize init
+
+now change the config.json in the config folder
+
+> createdb apartment_lab_with_sequelize
+
+create the models
+>sequelize model:create --name Manager --attributes first_name:string,last_name:string,property:string
+>sequelize model:create --name Tenant --attributes first_name:string,last_name:string,man_id:integer
+
+>sequelize db:migrate
+
+		in another tab 
+		>psql
+		#\connect apartment_lab_with_sequelize
+		#\dt
+
+
+
